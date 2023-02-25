@@ -1,7 +1,7 @@
 'use strict';
 
 /** Takes in a word and a group of letters, and returns true if the word
- * can be constructed form the values of letters.
+ * can be constructed from the values of letters.
  */
 
 function canConstructWord(word, letters) {
@@ -18,7 +18,7 @@ function canConstructWord(word, letters) {
   return true;
 }
 
-/** Takes in a item and pushes in the occurances of each value in the item */
+/** Takes in an iterable and generates a frequency counter */
 
 function generateFrequencyCounter(items) {
   const freqTracker = {};
